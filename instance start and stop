@@ -54,3 +54,18 @@ def lambda_handler(event, context):
     print('started your instances: ' + str(instances))
 
 
+VOLLUME MOUNT commands
+------------------
+1  fdisk -l
+    2  lsblk
+    3  mkfs.ext4 /dev/xvdf
+    4  mkdir /myvolume
+    5  mount /dev/xvdf /myvolume 
+    6  df -h
+    7  umount /myvoume
+    8  umount /myvolume
+    9  vi /etc/fstab
+   10  mount /myvolume
+   11  df -h
+   12  history
+
